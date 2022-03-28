@@ -1,0 +1,20 @@
+name: WyvernEnchants
+version: '${project.version}'
+main: wyvernenchants.wyvernenchants.WyvernEnchants
+api-version: 1.18
+authors: [ WyvernX ]
+permissions:
+  WyvernEnchants.AddEnchant:
+    default: op
+  WyvernEnchants.ScheduleRestart:
+    default: op
+  WyvernEnchants.Enchant:
+    default: op
+
+commands:
+  AddEnchant:
+    permission: "WyvernEnchants.AddEnchant"
+  Enchant:
+    permission: "WyvernEnchants.Enchant"
+  scheduleRestart:
+    permission: "WyvernEnchants.ScheduleRestart"
